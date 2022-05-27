@@ -1,6 +1,6 @@
-# Demo of on-chain verification
+# Demo Of On-Chain Verification Using A Signature Generated Off Chain
 
-## [Front-End](ll)
+## [Front-End](signature-demo/src/App.js)
 
 - Make the user sign a message
 - The message consist of:
@@ -8,7 +8,7 @@
   - Sender's Address
 - Console.log the signature
 
-## [On-chain Contract](signature-verification-demo/src/App.js)
+## [On-chain Contract](signature-demo/contract/contracts/verifySignature.sol)
 
 - Take the signature
 - compare the two address embedded in the message with contract address and sender address
